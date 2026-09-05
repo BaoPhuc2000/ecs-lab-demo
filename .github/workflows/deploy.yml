@@ -12,7 +12,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: ecs-lab-demo
   ECS_CLUSTER: ecs-lab-cluster
-  ECS_SERVICE: ecs-lab-demo
+  ECS_SERVICE: ecs-lab-demo-service-x2kw32ep
   TASK_DEFINITION_FAMILY: ecs-lab-demo
   CONTAINER_NAME: appp
 

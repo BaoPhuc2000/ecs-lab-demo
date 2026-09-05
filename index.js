@@ -4,7 +4,8 @@ const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Xin chào từ ECS Fargate!",
+    message: "Xin chao tu ECS Fargate!",
+    message2: "Hello from ECS Fargete!",
     hostname: require("os").hostname(),
   });
 });

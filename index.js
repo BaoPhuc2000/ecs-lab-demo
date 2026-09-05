@@ -6,6 +6,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "Xin chao tu ECS Fargate!",
     message2: "Hello from ECS Fargete!",
+    message3: "Welcome to ECS Fargate!",
     hostname: require("os").hostname(),
   });
 });

@@ -14,7 +14,7 @@ env:
   ECS_CLUSTER: ecs-lab-cluster
   ECS_SERVICE: ecs-lab-demo
   TASK_DEFINITION_FAMILY: ecs-lab-demo
-  CONTAINER_NAME: app
+  CONTAINER_NAME: appp
 
 jobs:
   deploy:
